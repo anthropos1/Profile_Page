@@ -1,0 +1,87 @@
+.profilepic {
+    width: 150px;
+    height:auto;
+    border-radius: 300px;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #1B263B;
+    line-height: 1.5em;
+    font-family: "Chivo Mono", monospace;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#title {
+    color:#1B263B;
+    font-size: 5vw;
+    text-align: center;
+}
+
+ul {
+    list-style-type: "-";
+    background-color: #1B263B;
+    color:#E0E1DD ;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    line-height: 2em;
+}
+
+.smallcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #E0E1DD;
+    align-items: center;
+    padding: 15px;
+    margin:10px;
+    width: 50%;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mainexper {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    background-color: #E0E1DD;
+    justify-content: space-around;
+    padding: 15px;
+    margin:20px;
+    width: 40%;
+    align-items: center;
+}
+
+h2 {
+    align-items: center;
+}
+
+.logo {
+ width: 80px;
+ height: 80px;
+}
+
+@media screen and (max-width: 1034px) and (max-height: 668px) {
+    .mainexper {
+      flex-direction: column; 
+    }
+  }
